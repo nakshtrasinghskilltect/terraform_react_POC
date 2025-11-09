@@ -1,0 +1,29 @@
+{
+  "id": 16,
+  "name": "test_pipeline4",
+  "description": "",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-10-30T15:18:13.079Z",
+  "components": [
+    {
+      "id": "s3-1761837478848",
+      "data": {
+        "name": "S3-54hnmk",
+        "type": "s3",
+        "config": {
+          "awsRegion": "us-east-1",
+          "bucketName": "test"
+        },
+        "componentType": "s3",
+        "validationError": false
+      },
+      "type": "cloudComponent",
+      "position": {
+        "x": 311.8625030517578,
+        "y": 323.3999938964844
+      }
+    }
+  ],
+  "connections": []
+}

@@ -1,12 +1,18 @@
-# React + Vite
+# test_pipeline4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+No description provided
 
-Currently, two official plugins are available:
+## Provider
+aws
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Region
+us-east-1
 
-## Expanding the ESLint configuration
+## Components
+1 components configured
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Created
+30/10/2025
+
+This directory was automatically created when the pipeline was saved in InfraGlide.

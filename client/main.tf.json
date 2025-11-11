@@ -15,9 +15,9 @@
   "resource": {
     "aws_s3_bucket": {
       "s3_1": {
-        "bucket": "tes",
+        "bucket": "test",
         "tags": {
-          "Name": "tes"
+          "Name": "test"
         }
       }
     }

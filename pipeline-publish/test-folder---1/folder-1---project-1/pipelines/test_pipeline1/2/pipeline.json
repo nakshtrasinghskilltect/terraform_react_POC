@@ -1,0 +1,46 @@
+{
+  "id": 30,
+  "name": "test_pipeline1",
+  "description": "test pipeline",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-11-11T19:19:49.145Z",
+  "components": [
+    {
+      "id": "s3-1762888672234",
+      "type": "cloudComponent",
+      "position": {
+        "x": 390.9499969482422,
+        "y": 278.3999938964844
+      },
+      "data": {
+        "type": "s3",
+        "name": "S3-4e5fz4",
+        "config": {
+          "awsRegion": "us-east-1",
+          "bucketName": "test33"
+        },
+        "validationError": false
+      }
+    },
+    {
+      "id": "s3-1762888769437",
+      "type": "cloudComponent",
+      "position": {
+        "x": 243.92499542236328,
+        "y": 283.34999084472656
+      },
+      "data": {
+        "componentType": "s3",
+        "type": "s3",
+        "name": "S3-b14u4m",
+        "config": {
+          "awsRegion": "us-west-1",
+          "bucketName": "testtt"
+        },
+        "validationError": false
+      }
+    }
+  ],
+  "connections": []
+}

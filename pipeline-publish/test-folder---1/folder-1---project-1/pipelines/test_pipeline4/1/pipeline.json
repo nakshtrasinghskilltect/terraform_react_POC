@@ -1,0 +1,28 @@
+{
+  "id": 153,
+  "name": "test_pipeline4",
+  "description": "test rename description4",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-11-17T12:41:28.387Z",
+  "components": [
+    {
+      "id": "s3-1763290915656",
+      "data": {
+        "name": "S3-0379u6",
+        "type": "s3",
+        "config": {
+          "awsRegion": "us-east-2",
+          "bucketName": "test"
+        },
+        "validationError": false
+      },
+      "type": "cloudComponent",
+      "position": {
+        "x": 253.5,
+        "y": 360.2222137451172
+      }
+    }
+  ],
+  "connections": []
+}

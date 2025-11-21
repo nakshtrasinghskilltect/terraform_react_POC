@@ -1,0 +1,39 @@
+{
+  "terraform": {
+    "required_providers": {
+      "aws": {
+        "source": "hashicorp/aws",
+        "version": "~> 5.0"
+      }
+    }
+  },
+  "provider": {
+    "aws": {
+      "region": "ap-south-1"
+    }
+  },
+  "resource": {
+    "aws_s3_bucket": {
+      "s3_1": {
+        "bucket": "testiing",
+        "tags": {
+          "Name": "testiing"
+        }
+      }
+    },
+    "aws_s3_bucket_versioning": {
+      "s3_1_versioning": {
+        "bucket": "${aws_s3_bucket.s3_1.id}",
+        "versioning_configuration": {
+          "status": "Enabled"
+        }
+      }
+    },
+    "aws_s3_bucket_acl": {
+      "s3_1_acl": {
+        "bucket": "${aws_s3_bucket.s3_1.id}",
+        "acl": "public-read"
+      }
+    }
+  }
+}

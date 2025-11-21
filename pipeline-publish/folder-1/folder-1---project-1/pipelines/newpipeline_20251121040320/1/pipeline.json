@@ -1,0 +1,34 @@
+{
+  "id": 191,
+  "name": "newPipeline_20251121040320",
+  "description": "",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-11-21T04:11:49.575Z",
+  "components": [
+    {
+      "id": "ecs-1763698271958",
+      "data": {
+        "name": "ECS-yrc6x1",
+        "type": "ecs",
+        "config": {
+          "Port Mapping": 33,
+          "Task Memory*": 512,
+          "Desired Count": 26,
+          "Network Mode*": "awsvpc",
+          "Container Name*": "test",
+          "Container Image*": "test"
+        },
+        "componentType": "ecs",
+        "requiredFields": [],
+        "validationError": false
+      },
+      "type": "cloudComponent",
+      "position": {
+        "x": -6.206245422363281,
+        "y": 85.59999084472656
+      }
+    }
+  ],
+  "connections": []
+}

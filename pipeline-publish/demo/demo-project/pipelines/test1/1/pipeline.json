@@ -1,0 +1,32 @@
+{
+  "id": 198,
+  "name": "test1",
+  "description": "test1",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-11-21T13:04:08.662Z",
+  "components": [
+    {
+      "id": "s3-1763730230669",
+      "data": {
+        "name": "S3-1awbjy",
+        "type": "s3",
+        "config": {
+          "awsRegion": "us-east-1",
+          "bucketName": "testiing",
+          "versioning": "Enabled",
+          "accessControlList": "public-read"
+        },
+        "componentType": "s3",
+        "requiredFields": [],
+        "validationError": false
+      },
+      "type": "cloudComponent",
+      "position": {
+        "x": 206,
+        "y": 328.2222137451172
+      }
+    }
+  ],
+  "connections": []
+}

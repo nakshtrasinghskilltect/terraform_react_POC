@@ -1,0 +1,83 @@
+{
+  "id": 332,
+  "name": "My-Gcp_pipeline",
+  "description": "",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-11-29T17:07:58.821Z",
+  "components": [
+    {
+      "id": "gcp-compute-1764435836357",
+      "type": "cloudComponent",
+      "position": {
+        "x": -39.47843070365178,
+        "y": 190.72851640409493
+      },
+      "data": {
+        "type": "gcp-compute",
+        "name": "GCP-COMPUTE-j08tgp",
+        "config": {},
+        "validationError": false
+      }
+    },
+    {
+      "id": "gcp-vpc-1764435851059",
+      "type": "cloudComponent",
+      "position": {
+        "x": 14.218773372848148,
+        "y": -4.200547839757519
+      },
+      "data": {
+        "type": "gcp-vpc",
+        "name": "GCP-VPC-6slbzs",
+        "config": {},
+        "validationError": false
+      }
+    },
+    {
+      "id": "gcp-bigquery-1764435893722",
+      "type": "cloudComponent",
+      "position": {
+        "x": 311.75703125000007,
+        "y": 200.25
+      },
+      "data": {
+        "type": "gcp-bigquery",
+        "name": "GCP-BIGQUERY-roj3od",
+        "config": {},
+        "validationError": false
+      }
+    },
+    {
+      "id": "gcp-storage-1764435907306",
+      "type": "cloudComponent",
+      "position": {
+        "x": 625.2764892650758,
+        "y": 157.9842939741265
+      },
+      "data": {
+        "type": "gcp-storage",
+        "name": "GCP-STORAGE-gksptt",
+        "config": {},
+        "validationError": false
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "reactflow__edge-gcp-vpc-1764435851059-gcp-compute-1764435836357",
+      "source": "gcp-vpc-1764435851059",
+      "target": "gcp-compute-1764435836357"
+    },
+    {
+      "id": "reactflow__edge-gcp-bigquery-1764435893722-gcp-storage-1764435907306",
+      "source": "gcp-bigquery-1764435893722",
+      "target": "gcp-storage-1764435907306"
+    },
+    {
+      "id": "reactflow__edge-gcp-compute-1764435836357-gcp-bigquery-1764435893722",
+      "source": "gcp-compute-1764435836357",
+      "target": "gcp-bigquery-1764435893722"
+    }
+  ]
+}
